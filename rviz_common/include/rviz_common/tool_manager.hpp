@@ -55,7 +55,7 @@ class PropertyTreeModel;
 
 }  // namespace properties
 
-class ToolManager : public QObject
+class RVIZ_COMMON_PUBLIC ToolManager : public QObject
 {
   Q_OBJECT
 
