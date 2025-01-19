@@ -262,6 +262,7 @@ target_link_libraries(rviz_default_plugins PUBLIC
   tf2_ros::tf2_ros
   urdf::urdf
   ${visualization_msgs_TARGETS}
+  Qt5::Widgets
 )
 
 target_link_libraries(rviz_default_plugins PRIVATE
